@@ -4,7 +4,8 @@ DALI PCB
 Overview
 --------
 
-PCB to power and interface with DALI using an ESP32-S2 or ESP32-S3.
+PCB to power and interface with DALI using an ESP32-S2, ESP32-S3 or FTDI
+TTL-232R-3V3.
 
 Usage
 -----
