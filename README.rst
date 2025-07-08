@@ -32,8 +32,8 @@ Power
 ~~~~~
 
 Power for the DALI bus is supplied by an external 12-22V DC power supply. Power
-for the microcontroller is supplied by an external 5V DC power supply with extra
-connections for powering other devices.
+for the microcontroller is supplied by USB to the development board or an
+external 5V DC power supply, with extra connections for powering other devices.
 
 .. image:: render/Power-sch.svg
    :alt: Power (for DALI) schematic
