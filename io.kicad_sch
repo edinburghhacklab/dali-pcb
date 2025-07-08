@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "4025e1ea-76ee-4fb6-b090-f3d70486e3c1")
-	(paper "User" 205 95)
+	(paper "User" 210 95)
 	(lib_symbols
 		(symbol "Connector:Conn_01x05_Pin"
 			(pin_names
@@ -2894,16 +2894,39 @@
 		)
 	)
 	(no_connect
-		(at 187.96 66.04)
+		(at 187.96 73.66)
+		(uuid "166d8326-01c7-4b9d-a1bc-d4b2cfafb914")
+	)
+	(no_connect
+		(at 187.96 39.37)
 		(uuid "3eb33295-6157-4cad-a7af-f447eceeb0ac")
 	)
 	(no_connect
-		(at 187.96 63.5)
+		(at 187.96 36.83)
 		(uuid "53e4decb-af8b-4327-bd12-8f73e615ed4d")
 	)
 	(no_connect
-		(at 187.96 73.66)
+		(at 187.96 63.5)
+		(uuid "82210242-bf6b-47f1-b510-3a80aeabcbf3")
+	)
+	(no_connect
+		(at 187.96 46.99)
 		(uuid "94e4fead-7e2e-46b7-a62c-80c6286e400b")
+	)
+	(no_connect
+		(at 187.96 66.04)
+		(uuid "efc5c57a-e88d-4a89-9b74-100677da2101")
+	)
+	(hierarchical_label "FTDI_DALI_TXD"
+		(shape bidirectional)
+		(at 187.96 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "001455bc-a569-4bbf-86e4-a89db8b0a563")
 	)
 	(hierarchical_label "IO_A9"
 		(shape bidirectional)
@@ -3026,9 +3049,9 @@
 		)
 		(uuid "45bcde81-3535-41da-a7cc-ad5fa550621b")
 	)
-	(hierarchical_label "FTDI_RXD"
+	(hierarchical_label "FTDI_MCU_RXD"
 		(shape bidirectional)
-		(at 187.96 71.12 0)
+		(at 187.96 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3114,6 +3137,17 @@
 		)
 		(uuid "6d64df1d-6236-4ba7-84b3-cac997188b5f")
 	)
+	(hierarchical_label "FTDI_DALI_RXD"
+		(shape bidirectional)
+		(at 187.96 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e486251-e7fa-4cf6-bdf3-fa7e1c92fc21")
+	)
 	(hierarchical_label "IO_A1"
 		(shape bidirectional)
 		(at 35.56 21.59 0)
@@ -3158,9 +3192,9 @@
 		)
 		(uuid "7bc1a82d-c47d-499a-a2e3-5e4b2882ec36")
 	)
-	(hierarchical_label "FTDI_TXD"
+	(hierarchical_label "FTDI_MCU_TXD"
 		(shape bidirectional)
-		(at 187.96 68.58 0)
+		(at 187.96 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3656,6 +3690,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 187.96 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "077e2054-133a-45ce-ad10-48f88e860bea")
+		(property "Reference" "#PWR083"
+			(at 194.31 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fead32c7-e3d7-442f-a5fc-32a8d2701bea")
+		)
+		(instances
+			(project "dali-pcb"
+				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d/6cac1b53-24ad-4dc9-955d-941983abac95"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 86.36 60.96 270)
 		(unit 1)
@@ -3791,7 +3892,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 60.96 90)
+		(at 187.96 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3800,7 +3901,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fa8d344-7c63-432d-b17f-a9ac62c287e6")
 		(property "Reference" "#PWR037"
-			(at 194.31 60.96 0)
+			(at 194.31 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3809,7 +3910,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 60.9599 90)
+			(at 191.77 34.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3818,7 +3919,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 60.96 0)
+			(at 187.96 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3827,7 +3928,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 60.96 0)
+			(at 187.96 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3836,7 +3937,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 60.96 0)
+			(at 187.96 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6342,7 +6443,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
-		(at 182.88 66.04 0)
+		(at 182.88 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6351,15 +6452,15 @@
 		(fields_autoplaced yes)
 		(uuid "9dc29965-1849-4ec1-9fa9-61af83c79c91")
 		(property "Reference" "J17"
-			(at 183.515 55.88 0)
+			(at 183.515 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "FTDI"
-			(at 183.515 58.42 0)
+		(property "Value" "FTDI-MCU"
+			(at 183.515 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6367,7 +6468,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 66.04 0)
+			(at 182.88 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6376,7 +6477,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 66.04 0)
+			(at 182.88 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6385,7 +6486,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 182.88 66.04 0)
+			(at 182.88 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7503,6 +7604,85 @@
 			(project "dali-pcb"
 				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d/6cac1b53-24ad-4dc9-955d-941983abac95"
 					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 182.88 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e38d8641-f733-488e-a1e3-c9609c4dee6b")
+		(property "Reference" "J35"
+			(at 183.515 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FTDI-DALI"
+			(at 183.515 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 182.88 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ebe5db87-a5d1-47fe-a1b6-3bcf30a32729")
+		)
+		(pin "4"
+			(uuid "d7286522-da07-4232-92c2-8bf352b32b3a")
+		)
+		(pin "5"
+			(uuid "1b3c2eea-e0f7-44a7-857d-f15b6b097cb5")
+		)
+		(pin "6"
+			(uuid "8732e01a-76ea-43d3-b926-4ed473a959a5")
+		)
+		(pin "1"
+			(uuid "f7ac098d-31bb-4efd-af6f-c8c10ab51772")
+		)
+		(pin "3"
+			(uuid "30955db5-ee71-4c35-bcbb-6b7a172fd425")
+		)
+		(instances
+			(project "dali-pcb"
+				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d/6cac1b53-24ad-4dc9-955d-941983abac95"
+					(reference "J35")
 					(unit 1)
 				)
 			)

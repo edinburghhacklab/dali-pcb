@@ -57,8 +57,11 @@ I/O
 
 Analogue and digital I/O pin headers are provided for integrations with external
 switches and rotary encoders. There are multiple overlapping pin headers for
-flexibility in how these are used. A pin header for FTDI UART connections is
-provided but this only attached to the ESP32-S3 microcontrollers.
+flexibility in how these are used.
+
+Pin headers for FTDI UART connections are provided for the ESP32-S3
+microcontroller and the DALI bus (which can only be used when the
+microcontroller is disconnected).
 
 .. image:: render/IO-sch.svg
    :alt: I/O schematic
