@@ -1362,18 +1362,6 @@
 		(uuid "25397668-6cfb-4ab2-9561-3d75c096dad4")
 	)
 	(junction
-		(at 171.45 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2651cbb0-3e0c-458a-9f9a-fa208a9b23cc")
-	)
-	(junction
-		(at 173.99 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2aec5e47-bfdc-4304-bf6b-11e923473b07")
-	)
-	(junction
 		(at 53.34 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1465,16 +1453,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 16.51) (xy 171.45 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1196d335-e31b-4d1a-b913-54e80d5444f1")
-	)
-	(wire
-		(pts
 			(xy 173.99 100.33) (xy 173.99 102.87)
 		)
 		(stroke
@@ -1555,7 +1533,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 21.59) (xy 173.99 30.48)
+			(xy 173.99 16.51) (xy 173.99 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1635,16 +1613,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 16.51) (xy 173.99 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44d2c5e6-dcec-445c-9a37-6b93014233fe")
-	)
-	(wire
-		(pts
 			(xy 173.99 95.25) (xy 179.07 95.25)
 		)
 		(stroke
@@ -1675,7 +1643,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 21.59) (xy 171.45 30.48)
+			(xy 171.45 16.51) (xy 171.45 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2339,7 +2307,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "5V DC"
 			(at 176.53 36.8299 90)
 			(effects
 				(font
@@ -2409,7 +2377,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "5V DC"
 			(at 176.53 53.3399 90)
 			(effects
 				(font
@@ -2478,7 +2446,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x05_Pin"
+		(property "Value" "5V DC"
 			(at 161.925 90.17 0)
 			(effects
 				(font
@@ -2757,7 +2725,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "5V DC"
 			(at 176.53 69.8499 90)
 			(effects
 				(font
@@ -3032,7 +3000,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "12-22.5V DC"
 			(at 35.56 12.6999 90)
 			(effects
 				(font
@@ -3151,73 +3119,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 171.45 21.59 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c779cf5a-b113-479e-9799-ac112e3dbbe0")
-		(property "Reference" "#FLG04"
-			(at 169.545 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 167.64 21.5899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 171.45 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3287add-0cdb-46c8-b8df-3f877c715664")
-		)
-		(instances
-			(project "dali-pcb"
-				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d/c3d197ff-c98f-4944-adaf-f724576fcc8c"
-					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 99.06 52.07 90)
 		(unit 1)
@@ -3280,73 +3181,6 @@
 			(project "dali-pcb"
 				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d/c3d197ff-c98f-4944-adaf-f724576fcc8c"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 173.99 21.59 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce4b848d-f284-4636-bbc7-e8911fa47547")
-		(property "Reference" "#FLG05"
-			(at 175.895 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 177.8 21.5899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 173.99 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ed506bd-52ff-4707-baeb-4718ef9f2a36")
-		)
-		(instances
-			(project "dali-pcb"
-				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d/c3d197ff-c98f-4944-adaf-f724576fcc8c"
-					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -3438,7 +3272,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "5V DC"
 			(at 176.53 12.6999 90)
 			(effects
 				(font
@@ -3574,7 +3408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12-22V DC"
+		(property "Value" "+12-22.5V DC"
 			(at 19.05 52.0699 90)
 			(effects
 				(font
@@ -3631,22 +3465,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fcc3daf3-5e15-4bf1-ac1e-53f7dddc3016")
 		(property "Reference" "J8"
-			(at 183.515 87.63 0)
+			(at 180.594 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x05_Pin"
-			(at 183.515 90.17 0)
+		(property "Value" "GND"
+			(at 180.086 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
