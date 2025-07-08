@@ -1323,7 +1323,7 @@
 				(justify right)
 			)
 		)
-		(pin "ESP32_RX0_GPIO44" input
+		(pin "ESP32_U0RXD_GPIO44" input
 			(at 144.78 82.55 0)
 			(uuid "d5bb4c2a-2ae2-4b21-b78d-187983f943cf")
 			(effects
@@ -1333,7 +1333,7 @@
 				(justify right)
 			)
 		)
-		(pin "ESP32_TX0_GPIO43" output
+		(pin "ESP32_U0TXD_GPIO43" output
 			(at 144.78 85.09 0)
 			(uuid "26400baf-34e8-4252-a2ae-fb2e395ea9dc")
 			(effects

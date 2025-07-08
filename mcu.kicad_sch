@@ -3135,7 +3135,7 @@
 		)
 		(uuid "4a04b5ef-e3d1-4b8e-bce7-013d2a623aa2")
 	)
-	(hierarchical_label "ESP32_RX0_GPIO44"
+	(hierarchical_label "ESP32_U0RXD_GPIO44"
 		(shape input)
 		(at 69.85 86.36 0)
 		(effects
@@ -3553,7 +3553,7 @@
 		)
 		(uuid "b158d355-03b5-4477-af86-6e7f5514c1fc")
 	)
-	(hierarchical_label "ESP32_TX0_GPIO43"
+	(hierarchical_label "ESP32_U0TXD_GPIO43"
 		(shape output)
 		(at 69.85 83.82 0)
 		(effects
@@ -3575,7 +3575,7 @@
 		)
 		(uuid "b7c0fe7d-284a-422e-b241-5239cad0e18e")
 	)
-	(hierarchical_label "ESP32_TX0_GPIO43"
+	(hierarchical_label "ESP32_U0TXD_GPIO43"
 		(shape output)
 		(at 69.85 24.13 0)
 		(effects
@@ -3806,7 +3806,7 @@
 		)
 		(uuid "f3a1c915-177a-4c2f-9c2c-b3b3be394e59")
 	)
-	(hierarchical_label "ESP32_RX0_GPIO44"
+	(hierarchical_label "ESP32_U0RXD_GPIO44"
 		(shape input)
 		(at 69.85 26.67 0)
 		(effects
