@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TCLT1000")(type "KiCad")(uri "${KIPRJMOD}/vendor/vishay/TCLT1000.pretty")(options "")(descr ""))
+)
