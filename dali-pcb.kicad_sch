@@ -822,7 +822,7 @@
 			)
 		)
 		(pin "FTDI_RXD" bidirectional
-			(at 166.37 82.55 180)
+			(at 166.37 85.09 180)
 			(uuid "f461a156-1d8d-427f-b908-adba8123c85c")
 			(effects
 				(font
@@ -832,7 +832,7 @@
 			)
 		)
 		(pin "FTDI_TXD" bidirectional
-			(at 166.37 85.09 180)
+			(at 166.37 82.55 180)
 			(uuid "09c6a958-21a3-4177-940b-f0148cf67c1c")
 			(effects
 				(font
