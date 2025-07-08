@@ -2913,10 +2913,6 @@
 		(at 187.96 46.99)
 		(uuid "94e4fead-7e2e-46b7-a62c-80c6286e400b")
 	)
-	(no_connect
-		(at 187.96 66.04)
-		(uuid "efc5c57a-e88d-4a89-9b74-100677da2101")
-	)
 	(hierarchical_label "FTDI_DALI_TXD"
 		(shape bidirectional)
 		(at 187.96 68.58 0)
@@ -5376,6 +5372,73 @@
 			(project "dali-pcb"
 				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d/6cac1b53-24ad-4dc9-955d-941983abac95"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 187.96 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d3ace49-cc2f-4a86-a9bf-4af52728d28e")
+		(property "Reference" "#PWR084"
+			(at 184.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 191.77 66.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 187.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e74e330-4303-429b-8855-a7e68d71e4ee")
+		)
+		(instances
+			(project "dali-pcb"
+				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d/6cac1b53-24ad-4dc9-955d-941983abac95"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
