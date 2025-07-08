@@ -195,7 +195,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Bridge_+-AA"
+		(symbol "Device:D_Bridge_+A-A"
 			(pin_names
 				(offset 0)
 			)
@@ -211,7 +211,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "D_Bridge_+-AA"
+			(property "Value" "D_Bridge_+A-A"
 				(at 2.54 5.08 0)
 				(effects
 					(font
@@ -238,7 +238,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Diode bridge, +ve/-ve/AC/AC"
+			(property "Description" "Diode bridge, +ve/AC/-ve/AC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -265,7 +265,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_Bridge_+-AA_0_1"
+			(symbol "D_Bridge_+A-A_0_1"
 				(circle
 					(center -5.08 0)
 					(radius 0.254)
@@ -419,7 +419,7 @@
 					)
 				)
 			)
-			(symbol "D_Bridge_+-AA_1_1"
+			(symbol "D_Bridge_+A-A_1_1"
 				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -430,7 +430,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -448,7 +448,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -466,7 +466,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2168,7 +2168,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 20.32 11.43 0)
 			(effects
 				(font
@@ -2510,7 +2510,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 88.9 11.43 0)
 			(effects
 				(font
@@ -2553,7 +2553,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Bridge_+-AA")
+		(lib_id "Device:D_Bridge_+A-A")
 		(at 26.67 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2569,21 +2569,21 @@
 				)
 			)
 		)
-		(property "Value" "D_Bridge_+-AA"
-			(at 40.64 48.1898 0)
+		(property "Value" "D_Bridge_+A-A"
+			(at 29.21 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 26.67 52.07 0)
+		(property "Footprint" "BGX50AE6327HTSA1.:SOT143_2p9x1p3-1p9_INF-M"
+			(at 26.162 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -2595,7 +2595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode bridge, +ve/-ve/AC/AC"
+		(property "Description" "Diode bridge, +ve/AC/-ve/AC"
 			(at 26.67 52.07 0)
 			(effects
 				(font
@@ -2660,14 +2660,13 @@
 				)
 			)
 		)
-		(property "Footprint" "TCLT1000:SOP-4L_TC"
+		(property "Footprint" "TCLT1000:SOP-4L_TC-M"
 			(at 163.83 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/83515/tclt1000.pdf"
@@ -2803,14 +2802,13 @@
 				)
 			)
 		)
-		(property "Footprint" "TCLT1000:SOP-4L_TC"
+		(property "Footprint" "TCLT1000:SOP-4L_TC-M"
 			(at 63.5 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/83515/tclt1000.pdf"
@@ -3017,7 +3015,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 54.61 11.43 0)
 			(effects
 				(font
@@ -3230,13 +3228,12 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 55.88 36.83 0)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 69.596 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"

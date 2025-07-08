@@ -3089,7 +3089,7 @@
 	)
 	(hierarchical_label "IO_A9"
 		(shape bidirectional)
-		(at 187.96 20.32 0)
+		(at 187.96 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3122,7 +3122,7 @@
 	)
 	(hierarchical_label "IO_A6"
 		(shape bidirectional)
-		(at 162.56 17.78 0)
+		(at 162.56 19.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3177,7 +3177,7 @@
 	)
 	(hierarchical_label "IO_A4"
 		(shape bidirectional)
-		(at 137.16 17.78 0)
+		(at 137.16 19.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3452,7 +3452,7 @@
 	)
 	(hierarchical_label "IO_A8"
 		(shape bidirectional)
-		(at 187.96 17.78 0)
+		(at 187.96 19.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3474,7 +3474,7 @@
 	)
 	(hierarchical_label "IO_A5"
 		(shape bidirectional)
-		(at 137.16 20.32 0)
+		(at 137.16 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3661,7 +3661,7 @@
 	)
 	(hierarchical_label "IO_A7"
 		(shape bidirectional)
-		(at 162.56 20.32 0)
+		(at 162.56 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4229,7 +4229,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 157.48 15.24 0)
+		(at 157.48 16.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4238,7 +4238,7 @@
 		(fields_autoplaced yes)
 		(uuid "19eac1d8-957d-454a-afdd-838060964ec3")
 		(property "Reference" "J24"
-			(at 158.115 5.08 0)
+			(at 158.115 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4246,15 +4246,15 @@
 			)
 		)
 		(property "Value" "A2-4"
-			(at 158.115 7.62 0)
+			(at 158.115 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 157.48 15.24 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+			(at 157.48 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4263,7 +4263,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 15.24 0)
+			(at 157.48 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4272,7 +4272,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 157.48 15.24 0)
+			(at 157.48 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,7 +4574,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 137.16 12.7 270)
+		(at 137.16 13.97 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4583,7 +4583,7 @@
 		(fields_autoplaced yes)
 		(uuid "270a4239-ab9e-4136-99b7-27c8ef853639")
 		(property "Reference" "#PWR054"
-			(at 133.35 12.7 0)
+			(at 133.35 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4592,7 +4592,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 140.97 12.6999 90)
+			(at 140.97 13.9699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,7 +4601,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 12.7 0)
+			(at 137.16 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4610,7 +4610,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 12.7 0)
+			(at 137.16 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4619,7 +4619,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 137.16 12.7 0)
+			(at 137.16 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4641,7 +4641,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 162.56 12.7 270)
+		(at 162.56 13.97 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4650,7 +4650,7 @@
 		(fields_autoplaced yes)
 		(uuid "2784b18e-8b4d-4a50-bebf-e0d602f6b568")
 		(property "Reference" "#PWR057"
-			(at 158.75 12.7 0)
+			(at 158.75 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4659,7 +4659,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 166.37 12.6999 90)
+			(at 166.37 13.9699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4668,7 +4668,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 12.7 0)
+			(at 162.56 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4677,7 +4677,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 12.7 0)
+			(at 162.56 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4686,7 +4686,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 162.56 12.7 0)
+			(at 162.56 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4799,7 +4799,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 81.28 66.04 0)
 			(effects
 				(font
@@ -4876,7 +4876,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 106.68 66.04 0)
 			(effects
 				(font
@@ -4953,7 +4953,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 81.28 16.51 0)
 			(effects
 				(font
@@ -5006,7 +5006,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 137.16 10.16 270)
+		(at 137.16 11.43 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5015,7 +5015,7 @@
 		(fields_autoplaced yes)
 		(uuid "4575f404-f581-4cae-9f12-e7c63987baef")
 		(property "Reference" "#PWR053"
-			(at 133.35 10.16 0)
+			(at 133.35 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5024,7 +5024,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 140.97 10.1599 90)
+			(at 140.97 11.4299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,7 +5033,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 10.16 0)
+			(at 137.16 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5042,7 +5042,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 10.16 0)
+			(at 137.16 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5051,7 +5051,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 137.16 10.16 0)
+			(at 137.16 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5073,7 +5073,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 187.96 10.16 270)
+		(at 187.96 11.43 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5082,7 +5082,7 @@
 		(fields_autoplaced yes)
 		(uuid "4619e13c-5344-41b7-b0b6-d2e0f2bb8c1d")
 		(property "Reference" "#PWR059"
-			(at 184.15 10.16 0)
+			(at 184.15 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,7 +5091,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 191.77 10.1599 90)
+			(at 191.77 11.4299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,7 +5100,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 10.16 0)
+			(at 187.96 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5109,7 +5109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 10.16 0)
+			(at 187.96 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +5118,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 187.96 10.16 0)
+			(at 187.96 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5231,7 +5231,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 106.68 16.51 0)
 			(effects
 				(font
@@ -5308,7 +5308,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x13_P2.54mm_Vertical"
 			(at 5.08 26.67 0)
 			(effects
 				(font
@@ -5543,7 +5543,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 132.08 86.36 0)
 			(effects
 				(font
@@ -5788,7 +5788,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 182.88 15.24 0)
+		(at 182.88 16.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5797,7 +5797,7 @@
 		(fields_autoplaced yes)
 		(uuid "6193be0d-f1a2-4482-8596-b0c2a88ba6ec")
 		(property "Reference" "J25"
-			(at 183.515 5.08 0)
+			(at 183.515 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5805,15 +5805,15 @@
 			)
 		)
 		(property "Value" "A2-5"
-			(at 183.515 7.62 0)
+			(at 183.515 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 182.88 15.24 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+			(at 182.88 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5822,7 +5822,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 15.24 0)
+			(at 182.88 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5831,7 +5831,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 182.88 15.24 0)
+			(at 182.88 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6157,7 +6157,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 81.28 86.36 0)
 			(effects
 				(font
@@ -6225,7 +6225,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
 			(at 55.88 68.58 0)
 			(effects
 				(font
@@ -6485,7 +6485,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 187.96 12.7 270)
+		(at 187.96 13.97 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6494,7 +6494,7 @@
 		(fields_autoplaced yes)
 		(uuid "8deea23f-99d7-4d7a-8409-79635ef59105")
 		(property "Reference" "#PWR060"
-			(at 184.15 12.7 0)
+			(at 184.15 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6503,7 +6503,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 191.77 12.6999 90)
+			(at 191.77 13.9699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6512,7 +6512,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 12.7 0)
+			(at 187.96 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6521,7 +6521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 12.7 0)
+			(at 187.96 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6530,7 +6530,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 187.96 12.7 0)
+			(at 187.96 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6576,7 +6576,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 55.88 19.05 0)
 			(effects
 				(font
@@ -6638,7 +6638,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 162.56 10.16 270)
+		(at 162.56 11.43 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6647,7 +6647,7 @@
 		(fields_autoplaced yes)
 		(uuid "91ec57bc-3d95-4aa1-84bb-cb04076ae59b")
 		(property "Reference" "#PWR056"
-			(at 158.75 10.16 0)
+			(at 158.75 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6656,7 +6656,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 166.37 10.1599 90)
+			(at 166.37 11.4299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6665,7 +6665,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 10.16 0)
+			(at 162.56 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6674,7 +6674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 10.16 0)
+			(at 162.56 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6683,7 +6683,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 162.56 10.16 0)
+			(at 162.56 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6729,7 +6729,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 132.08 66.04 0)
 			(effects
 				(font
@@ -6782,7 +6782,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 15.24 90)
+		(at 162.56 16.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6791,7 +6791,7 @@
 		(fields_autoplaced yes)
 		(uuid "963426fe-e4d4-4de0-a321-51a41fe1a4f2")
 		(property "Reference" "#PWR058"
-			(at 168.91 15.24 0)
+			(at 168.91 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6800,7 +6800,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 15.2399 90)
+			(at 166.37 16.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6809,7 +6809,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 15.24 0)
+			(at 162.56 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6818,7 +6818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 15.24 0)
+			(at 162.56 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6827,7 +6827,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 15.24 0)
+			(at 162.56 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6940,7 +6940,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 182.88 39.37 0)
 			(effects
 				(font
@@ -7130,7 +7130,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 15.24 90)
+		(at 187.96 16.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7139,7 +7139,7 @@
 		(fields_autoplaced yes)
 		(uuid "a31fd47b-3299-4ccc-9872-7ebe409bfdfd")
 		(property "Reference" "#PWR061"
-			(at 194.31 15.24 0)
+			(at 194.31 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7148,7 +7148,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 15.2399 90)
+			(at 191.77 16.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7157,7 +7157,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 15.24 0)
+			(at 187.96 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7166,7 +7166,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 15.24 0)
+			(at 187.96 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7175,7 +7175,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 15.24 0)
+			(at 187.96 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7221,7 +7221,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical"
 			(at 5.08 73.66 0)
 			(effects
 				(font
@@ -7383,7 +7383,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 30.48 19.05 0)
 			(effects
 				(font
@@ -7670,7 +7670,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
 			(at 31.75 68.58 0)
 			(effects
 				(font
@@ -7887,7 +7887,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 157.48 66.04 0)
 			(effects
 				(font
@@ -8074,7 +8074,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 132.08 15.24 0)
+		(at 132.08 16.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8083,7 +8083,7 @@
 		(fields_autoplaced yes)
 		(uuid "dad38f00-c5b9-4c81-94b6-108c8ee36274")
 		(property "Reference" "J23"
-			(at 132.715 5.08 0)
+			(at 132.715 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8091,15 +8091,15 @@
 			)
 		)
 		(property "Value" "A2-3"
-			(at 132.715 7.62 0)
+			(at 132.715 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 132.08 15.24 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+			(at 132.08 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8108,7 +8108,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 15.24 0)
+			(at 132.08 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8117,7 +8117,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 132.08 15.24 0)
+			(at 132.08 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8175,7 +8175,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 157.48 86.36 0)
 			(effects
 				(font
@@ -8310,7 +8310,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 106.68 86.36 0)
 			(effects
 				(font
@@ -8377,7 +8377,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 182.88 66.04 0)
 			(effects
 				(font
@@ -8634,7 +8634,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 15.24 90)
+		(at 137.16 16.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8643,7 +8643,7 @@
 		(fields_autoplaced yes)
 		(uuid "f454ea76-df29-433e-8ab9-f25265539ef8")
 		(property "Reference" "#PWR055"
-			(at 143.51 15.24 0)
+			(at 143.51 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8652,7 +8652,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.97 15.2399 90)
+			(at 140.97 16.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8661,7 +8661,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 15.24 0)
+			(at 137.16 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8670,7 +8670,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 15.24 0)
+			(at 137.16 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8679,7 +8679,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 15.24 0)
+			(at 137.16 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
