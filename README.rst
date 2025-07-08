@@ -15,8 +15,8 @@ This is a KiCad project.
 Schematics
 ----------
 
-Power for the DALI bus is optional and can be connected by populating the 0Ω
-resistors.
+Power for the DALI bus is optional and can be connected using the solder jumper
+bridges.
 
 .. image:: render/Root-sch.svg
    :alt: Root schematic
