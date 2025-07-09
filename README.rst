@@ -6,6 +6,8 @@ Overview
 
 PCB to power and interface with DALI using an ESP32-S2 or ESP32-S3.
 
+Dimensions: 180.5mm W × 113mm H × ~18mm D
+
 Usage
 -----
 
