@@ -36,7 +36,7 @@ for the microcontroller is supplied by USB to the development board or an
 external 5V DC power supply, with extra connections for powering other devices.
 
 .. image:: render/Power-sch.svg
-   :alt: Power (for DALI) schematic
+   :alt: Power schematic
 
 Microcontroller
 ~~~~~~~~~~~~~~~
@@ -66,6 +66,12 @@ can only be used when the microcontroller is disconnected.
 
 .. image:: render/IO-sch.svg
    :alt: I/O schematic
+
+PCB
+---
+
+.. image:: render/DALI-pcb.svg
+   :alt: DALI PCB
 
 References
 ----------
