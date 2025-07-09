@@ -43,9 +43,10 @@ Microcontroller
 
 Supported development boards:
 
-* LOLIN S3
-* LOLIN S2 mini
 * ESP32-DevKitC-1
+* LOLIN S3
+* LOLIN S3 mini
+* LOLIN S2 mini
 
 Only one of these can be connected at a time.
 

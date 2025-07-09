@@ -3562,7 +3562,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 63.5 66.548 90)
+			(at 63.5 62.992 90)
 			(effects
 				(font
 					(size 1.27 1.27)

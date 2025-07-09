@@ -400,7 +400,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "ESP32-S2 only"
+	(text "LOLIN-S2/S3-MINI only"
 		(exclude_from_sim no)
 		(at 98.552 70.104 90)
 		(effects
