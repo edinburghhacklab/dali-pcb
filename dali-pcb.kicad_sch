@@ -407,16 +407,16 @@
 		(uuid "1fe6b2f1-6a45-4c43-8d4a-1b420446030e")
 	)
 	(junction
+		(at 88.9 12.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "245c78d0-576b-41d5-b010-fedfa404f63e")
+	)
+	(junction
 		(at 33.02 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a4540f9-7c26-4fe3-aed5-01074becf197")
-	)
-	(junction
-		(at 91.44 12.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55082e4e-ed88-44c6-a87f-84508b031729")
 	)
 	(junction
 		(at 7.62 60.96)
@@ -431,10 +431,10 @@
 		(uuid "8afbf488-0c3f-41c4-9263-4a8f5a887144")
 	)
 	(junction
-		(at 88.9 10.16)
+		(at 91.44 15.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ad825eb8-06a5-4d95-bfef-2741f5bdb62a")
+		(uuid "985d6b22-f277-4d8a-999e-8dab0a2f613f")
 	)
 	(wire
 		(pts
@@ -475,6 +475,16 @@
 			(type default)
 		)
 		(uuid "1250e23a-bb8e-446d-98a8-66fac6cf59b1")
+	)
+	(wire
+		(pts
+			(xy 88.9 10.16) (xy 88.9 12.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12e14783-e8ab-41b2-8283-5a0f20a25f12")
 	)
 	(wire
 		(pts
@@ -548,13 +558,23 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 12.7) (xy 101.6 12.7)
+			(xy 91.44 15.24) (xy 101.6 15.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "39aa8c0f-fb8d-43ff-91b0-34b3c6e76928")
+	)
+	(wire
+		(pts
+			(xy 88.9 12.7) (xy 88.9 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41cff20e-c1e2-4208-941e-f837cbf1ee8e")
 	)
 	(wire
 		(pts
@@ -578,7 +598,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 12.7) (xy 91.44 12.7)
+			(xy 80.01 15.24) (xy 91.44 15.24)
 		)
 		(stroke
 			(width 0)
@@ -658,6 +678,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 15.24) (xy 91.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "807432e3-79ac-43c0-8b26-3ce2bd34fb2c")
+	)
+	(wire
+		(pts
 			(xy 144.78 66.04) (xy 166.37 66.04)
 		)
 		(stroke
@@ -668,7 +698,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 10.16) (xy 88.9 10.16)
+			(xy 80.01 12.7) (xy 88.9 12.7)
 		)
 		(stroke
 			(width 0)
@@ -718,7 +748,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 10.16) (xy 101.6 10.16)
+			(xy 88.9 12.7) (xy 101.6 12.7)
 		)
 		(stroke
 			(width 0)
@@ -778,13 +808,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 10.16) (xy 88.9 78.74)
+			(xy 101.6 10.16) (xy 88.9 10.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eafddd2d-c9c4-4e0d-9f38-7acfb297e742")
+		(uuid "d2624c05-3e6a-4fbc-ae9d-30e97cd785a8")
 	)
 	(wire
 		(pts
@@ -835,16 +865,6 @@
 			(type default)
 		)
 		(uuid "fbb4e0ea-b625-4b33-9f88-103a286b59d2")
-	)
-	(wire
-		(pts
-			(xy 91.44 12.7) (xy 91.44 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe2b9b00-0d61-41e8-8c5d-6cf3ceb526a3")
 	)
 	(wire
 		(pts
@@ -1857,7 +1877,7 @@
 			)
 		)
 		(pin "ESP32_GPIO21" bidirectional
-			(at 101.6 12.7 180)
+			(at 101.6 15.24 180)
 			(uuid "e672c851-3d97-42a5-8ab4-bd08b31733ee")
 			(effects
 				(font
@@ -1877,7 +1897,7 @@
 			)
 		)
 		(pin "ESP32_GPIO40" bidirectional
-			(at 101.6 10.16 180)
+			(at 101.6 12.7 180)
 			(uuid "c0e7c3e0-d3f8-4b25-834d-f662b4612354")
 			(effects
 				(font
@@ -1904,6 +1924,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "L_S3_MINI_GPIO38" bidirectional
+			(at 101.6 10.16 180)
+			(uuid "6cc540d4-7aeb-4b5b-bb6b-b72dfaf31da1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -2031,7 +2061,7 @@
 			)
 		)
 		(pin "DALI_RX" output
-			(at 80.01 10.16 0)
+			(at 80.01 12.7 0)
 			(uuid "698e988b-25f0-4343-b7fd-6f268e4f44b8")
 			(effects
 				(font
@@ -2041,7 +2071,7 @@
 			)
 		)
 		(pin "DALI_TX" input
-			(at 80.01 12.7 0)
+			(at 80.01 15.24 0)
 			(uuid "4493a803-094f-47fe-bf37-aafaf07148f4")
 			(effects
 				(font

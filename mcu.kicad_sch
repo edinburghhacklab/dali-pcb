@@ -3239,17 +3239,6 @@
 	)
 	(text "ESP32_GPIO38"
 		(exclude_from_sim no)
-		(at 71.12 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ccfd8941-52eb-4008-8a06-9f776512c994")
-	)
-	(text "ESP32_GPIO38"
-		(exclude_from_sim no)
 		(at 71.12 203.2 0)
 		(effects
 			(font
@@ -3391,10 +3380,6 @@
 	(no_connect
 		(at 72.39 205.74)
 		(uuid "6f0ea557-cf3e-44f0-b987-08dd0540e1eb")
-	)
-	(no_connect
-		(at 72.39 167.64)
-		(uuid "72ff6a76-6c0f-441c-8aed-d0d5ff93c0a6")
 	)
 	(no_connect
 		(at 73.66 137.16)
@@ -3609,6 +3594,17 @@
 			(justify left)
 		)
 		(uuid "22cad458-2842-43fe-b94e-14378f80c103")
+	)
+	(hierarchical_label "L_S3_MINI_GPIO38"
+		(shape bidirectional)
+		(at 72.39 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "276d0a97-34b6-404a-a0e5-a559e494ea48")
 	)
 	(hierarchical_label "ESP32_A9_GPIO10"
 		(shape bidirectional)
