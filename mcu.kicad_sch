@@ -2932,6 +2932,95 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "ESP32_GPIO37"
+		(exclude_from_sim no)
+		(at 74.93 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05ce6d72-b24c-443a-b3ab-9091e52be5cd")
+	)
+	(text "ESP32_GPIO48"
+		(exclude_from_sim no)
+		(at 74.93 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ec6e972-6dc9-464d-8660-c0bd1a8c7f34")
+	)
+	(text "ESP32_GPIO36"
+		(exclude_from_sim no)
+		(at 74.93 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1016977b-5a53-48e8-8861-9a404e5f9d02")
+	)
+	(text "ESP32_GPIO15"
+		(exclude_from_sim no)
+		(at 71.12 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10e694af-6c4a-4ffd-a5c1-cae8360d0f3b")
+	)
+	(text "ESP32_GPIO15"
+		(exclude_from_sim no)
+		(at 34.29 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1446a098-f31e-4fe4-b34f-499d53bdd3aa")
+	)
+	(text "ESP32_GPIO34"
+		(exclude_from_sim no)
+		(at 71.12 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30de81f6-e5aa-4ac6-b9a3-b218bfc86374")
+	)
+	(text "OCTAL\nPSRAM"
+		(exclude_from_sim no)
+		(at 91.44 119.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "35e9e4d2-3fdd-4be4-bcbb-a613e5b6de90")
+	)
+	(text "ESP32_GPIO41"
+		(exclude_from_sim no)
+		(at 74.93 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "422be759-ae0e-447e-9965-7d3f1287b062")
+	)
 	(text "0.9in wide (outer)\n0.7in wide (inner)"
 		(exclude_from_sim no)
 		(at 51.562 195.58 0)
@@ -2941,6 +3030,17 @@
 			)
 		)
 		(uuid "4bb035fc-7f0b-4e9c-9d49-ea679756e6f6")
+	)
+	(text "ESP32_GPIO33"
+		(exclude_from_sim no)
+		(at 86.36 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "541b783c-0f34-4bad-a0e5-39a1f68f7991")
 	)
 	(text "0.9in wide (outer)\n0.7in wide (inner)"
 		(exclude_from_sim no)
@@ -2952,6 +3052,61 @@
 		)
 		(uuid "5fe3982b-eef7-47ac-8966-242d40c67b9f")
 	)
+	(text "ESP32_GPIO35"
+		(exclude_from_sim no)
+		(at 86.36 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62790907-45d6-45bf-95e7-345ca9aaf6a1")
+	)
+	(text "ESP32_GPIO36"
+		(exclude_from_sim no)
+		(at 71.12 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67351e73-74dc-46a0-aa75-cea1d507b55e")
+	)
+	(text "ESP32_GPIO41"
+		(exclude_from_sim no)
+		(at 74.93 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75af3c90-3034-4973-b8f7-5195719c8cf0")
+	)
+	(text "ESP32_GPIO45"
+		(exclude_from_sim no)
+		(at 74.93 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7dedd726-48f9-44df-a27c-2f870724e182")
+	)
+	(text "ESP32_GPIO42"
+		(exclude_from_sim no)
+		(at 74.93 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "81decc64-7744-49a4-bf6c-d79a57e33c4b")
+	)
 	(text "0.9in wide"
 		(exclude_from_sim no)
 		(at 54.61 25.908 0)
@@ -2961,6 +3116,72 @@
 			)
 		)
 		(uuid "8b62a41c-105f-4c12-98f3-ffaac40354a5")
+	)
+	(text "ESP32_GPIO42"
+		(exclude_from_sim no)
+		(at 74.93 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93404012-93a8-4179-a5cf-cb69cea99495")
+	)
+	(text "ESP32_GPIO36"
+		(exclude_from_sim no)
+		(at 86.36 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "944034d8-5f8b-4ffd-9b1d-7408ec9c51c3")
+	)
+	(text "ESP32_GPIO34"
+		(exclude_from_sim no)
+		(at 71.12 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a689777-cd45-4c43-b6d0-d2dc97d27d00")
+	)
+	(text "ESP32_GPIO47"
+		(exclude_from_sim no)
+		(at 74.93 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1a18676-25a0-4e8a-aaf0-dcabeb26400b")
+	)
+	(text "ESP32_GPIO37"
+		(exclude_from_sim no)
+		(at 71.12 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8da2ea9-c883-4a04-9dd9-15dbe6dcb39a")
+	)
+	(text "ESP32_GPIO35"
+		(exclude_from_sim no)
+		(at 86.36 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa08a375-d55b-41e1-97c9-c70b9f87825b")
 	)
 	(text "0.9in wide"
 		(exclude_from_sim no)
@@ -2972,9 +3193,136 @@
 		)
 		(uuid "af901494-e4eb-4ea0-bdfa-bfc497e26f8c")
 	)
+	(text "ESP32_GPIO45"
+		(exclude_from_sim no)
+		(at 74.93 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1890f64-51f5-48eb-ab83-6a4ca6c41ee9")
+	)
+	(text "ESP32_GPIO35"
+		(exclude_from_sim no)
+		(at 74.93 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c16bb361-5c6d-4d5c-9877-71fc092bd1bc")
+	)
+	(text "ESP32_GPIO47"
+		(exclude_from_sim no)
+		(at 74.93 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4244104-aa8c-4046-b6ca-e3b15c282b4e")
+	)
+	(text "ESP32_GPIO48"
+		(exclude_from_sim no)
+		(at 74.93 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca8a58b3-1344-43fd-9447-646aaa45e732")
+	)
+	(text "ESP32_GPIO38"
+		(exclude_from_sim no)
+		(at 71.12 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ccfd8941-52eb-4008-8a06-9f776512c994")
+	)
+	(text "ESP32_GPIO38"
+		(exclude_from_sim no)
+		(at 71.12 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d60e74b3-3f28-49d2-a889-2738850db065")
+	)
+	(text "ESP32_GPIO37"
+		(exclude_from_sim no)
+		(at 86.36 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dbc3d015-2c05-4da5-819a-447fc3962d61")
+	)
+	(text "ESP32_GPIO15"
+		(exclude_from_sim no)
+		(at 34.29 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed0cd78f-3a0b-4934-96cf-ff63802fb597")
+	)
+	(text "ESP32_GPIO33"
+		(exclude_from_sim no)
+		(at 71.12 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4d7a919-f550-40c4-968b-166b71bba28f")
+	)
+	(no_connect
+		(at 73.66 104.14)
+		(uuid "053f91ba-b92b-4e3c-be5f-e8de3bad98f5")
+	)
+	(no_connect
+		(at 73.66 124.46)
+		(uuid "06e51f81-dd7b-4553-a987-507abd39adf4")
+	)
 	(no_connect
 		(at 72.39 218.44)
 		(uuid "0882aa43-0c68-48b4-b256-b56ab41da29d")
+	)
+	(no_connect
+		(at 73.66 52.07)
+		(uuid "0b57b020-f438-4b3f-a404-b98032ad01ed")
+	)
+	(no_connect
+		(at 72.39 180.34)
+		(uuid "0d61f12c-7071-4b5d-a83c-d7ed91afa78d")
+	)
+	(no_connect
+		(at 85.09 205.74)
+		(uuid "125b4ac5-2e60-4d38-97bf-faa9856af901")
+	)
+	(no_connect
+		(at 72.39 208.28)
+		(uuid "133c3437-d67a-4c70-88de-cfdceec5ffad")
+	)
+	(no_connect
+		(at 85.09 208.28)
+		(uuid "1576339c-1887-409f-918f-98ac6229d132")
 	)
 	(no_connect
 		(at 20.32 162.56)
@@ -2985,20 +3333,48 @@
 		(uuid "1df6b55c-0039-43a6-8261-94283922c4a1")
 	)
 	(no_connect
-		(at 73.66 119.38)
-		(uuid "3ab0da9e-79e6-4ae7-86c6-d286b8f4f8e6")
+		(at 73.66 106.68)
+		(uuid "344b69bd-0b1f-4a5d-a6b9-df148031371d")
+	)
+	(no_connect
+		(at 73.66 127)
+		(uuid "34534da6-7e84-4eba-8477-e5d4393cc940")
+	)
+	(no_connect
+		(at 72.39 165.1)
+		(uuid "3cdf20ee-47eb-4957-89a7-6d946316c39d")
+	)
+	(no_connect
+		(at 73.66 39.37)
+		(uuid "4661a846-7ad9-4b31-8630-8907b68bb587")
 	)
 	(no_connect
 		(at 73.66 114.3)
 		(uuid "489dcb7b-3dfe-454f-b31d-a2d5b593da50")
 	)
 	(no_connect
-		(at 35.56 57.15)
-		(uuid "56a7b84b-5aee-4453-827b-4aaa1658ec8f")
+		(at 73.66 119.38)
+		(uuid "572d8a26-c031-4148-b1b5-0e2e6816f88c")
 	)
 	(no_connect
 		(at 73.66 116.84)
 		(uuid "5ab363c5-d28d-4aee-9a7f-c6fb5e11721e")
+	)
+	(no_connect
+		(at 72.39 203.2)
+		(uuid "5afdbf01-f9b0-4350-a8ab-bd3b815deef6")
+	)
+	(no_connect
+		(at 73.66 36.83)
+		(uuid "60f8b318-46bf-4e58-a0bf-6e45b731500e")
+	)
+	(no_connect
+		(at 73.66 57.15)
+		(uuid "6236efd8-a8e2-4cc6-b238-c51a6857a5d2")
+	)
+	(no_connect
+		(at 35.56 41.91)
+		(uuid "631d8be9-173f-4cd4-b640-d6af49cad05f")
 	)
 	(no_connect
 		(at 73.66 134.62)
@@ -3009,12 +3385,44 @@
 		(uuid "6a27fa4a-041b-4a04-8c3d-cd91d2ffd4b1")
 	)
 	(no_connect
+		(at 35.56 57.15)
+		(uuid "6efcb955-2c17-43d3-b144-bbe7ecc3d71a")
+	)
+	(no_connect
+		(at 72.39 205.74)
+		(uuid "6f0ea557-cf3e-44f0-b987-08dd0540e1eb")
+	)
+	(no_connect
+		(at 72.39 167.64)
+		(uuid "72ff6a76-6c0f-441c-8aed-d0d5ff93c0a6")
+	)
+	(no_connect
 		(at 73.66 137.16)
 		(uuid "81ad0e7d-10af-4909-b9ae-548cc4311325")
 	)
 	(no_connect
+		(at 72.39 162.56)
+		(uuid "9db9ab30-91d6-43d6-8a37-ad2047f02016")
+	)
+	(no_connect
+		(at 35.56 109.22)
+		(uuid "a36261b4-0fc6-4c42-83de-188e5988fcdb")
+	)
+	(no_connect
 		(at 35.56 96.52)
 		(uuid "aa96ea97-66e0-4ae9-ac93-9df2af1ddf51")
+	)
+	(no_connect
+		(at 85.09 203.2)
+		(uuid "b37dbb0e-57e8-4594-bb2d-e5bd7e4dfd7b")
+	)
+	(no_connect
+		(at 85.09 167.64)
+		(uuid "b91c183a-8553-4652-a144-810f628faf66")
+	)
+	(no_connect
+		(at 72.39 170.18)
+		(uuid "c3a10325-7b73-4fb8-909f-c951fa8eb986")
 	)
 	(no_connect
 		(at 35.56 29.21)
@@ -3026,11 +3434,23 @@
 	)
 	(no_connect
 		(at 73.66 121.92)
-		(uuid "d93ba101-d447-4bdc-a9b2-bee911ea0bbb")
+		(uuid "db752872-8273-4d3b-8a76-099d10f9bbb2")
 	)
 	(no_connect
 		(at 20.32 200.66)
 		(uuid "e2c27d0e-7135-452f-a8c2-84db192f8dc2")
+	)
+	(no_connect
+		(at 85.09 170.18)
+		(uuid "ebb33edc-cdff-46cd-aaed-fdff21f97db7")
+	)
+	(no_connect
+		(at 73.66 54.61)
+		(uuid "fd54d5b2-673b-4bec-af74-fb4db8b7ae55")
+	)
+	(no_connect
+		(at 73.66 129.54)
+		(uuid "fd7d3af9-bb77-4093-a310-9012e56eede9")
 	)
 	(wire
 		(pts
@@ -3157,17 +3577,6 @@
 		)
 		(uuid "0af4bd54-20db-4663-8fdf-f8ed3e53725a")
 	)
-	(hierarchical_label "ESP32_GPIO37"
-		(shape bidirectional)
-		(at 72.39 165.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0efec78e-2a5f-48cd-8efa-2fe5ea64c677")
-	)
 	(hierarchical_label "ESP32_GPIO21"
 		(shape bidirectional)
 		(at 73.66 132.08 0)
@@ -3201,17 +3610,6 @@
 		)
 		(uuid "22cad458-2842-43fe-b94e-14378f80c103")
 	)
-	(hierarchical_label "ESP32_GPIO34"
-		(shape bidirectional)
-		(at 72.39 170.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "270e23da-ada2-43b2-a743-e24455ea070f")
-	)
 	(hierarchical_label "ESP32_A9_GPIO10"
 		(shape bidirectional)
 		(at 20.32 177.8 180)
@@ -3222,17 +3620,6 @@
 			(justify right)
 		)
 		(uuid "2d5f204c-2a6e-49cc-8f81-295a5acfa87e")
-	)
-	(hierarchical_label "ESP32_GPIO47"
-		(shape bidirectional)
-		(at 73.66 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2f2c8a99-6eec-4ee3-8366-4b599cd4d05b")
 	)
 	(hierarchical_label "ESP32_A4_GPIO5"
 		(shape bidirectional)
@@ -3278,39 +3665,6 @@
 		)
 		(uuid "44412d35-9a10-4699-829d-0436ea356c5a")
 	)
-	(hierarchical_label "ESP32_GPIO41"
-		(shape bidirectional)
-		(at 73.66 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "45ca53df-2800-46c9-a399-78462922d917")
-	)
-	(hierarchical_label "ESP32_GPIO35"
-		(shape bidirectional)
-		(at 85.09 205.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "46132589-07cd-4804-8771-3762ee4f5989")
-	)
-	(hierarchical_label "ESP32_GPIO41"
-		(shape bidirectional)
-		(at 73.66 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4a04b5ef-e3d1-4b8e-bce7-013d2a623aa2")
-	)
 	(hierarchical_label "ESP32_U0RXD_GPIO44"
 		(shape input)
 		(at 73.66 96.52 0)
@@ -3344,28 +3698,6 @@
 		)
 		(uuid "4f0b7f02-a071-45b2-b083-f79ec9968b72")
 	)
-	(hierarchical_label "ESP32_GPIO38"
-		(shape bidirectional)
-		(at 72.39 203.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "503c836c-6a5c-43a3-88be-1a4709b5cfb3")
-	)
-	(hierarchical_label "ESP32_GPIO45"
-		(shape bidirectional)
-		(at 73.66 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5060241b-2f29-4774-b73c-ac1f1c7cd5f5")
-	)
 	(hierarchical_label "ESP32_U0TXD_GPIO43"
 		(shape output)
 		(at 85.09 162.56 0)
@@ -3376,17 +3708,6 @@
 			(justify left)
 		)
 		(uuid "60c99379-45d6-48a9-86b9-8a0804b7cb62")
-	)
-	(hierarchical_label "ESP32_GPIO33"
-		(shape bidirectional)
-		(at 72.39 162.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6466ed4c-f6b7-49a2-9ffd-f8d7c2338188")
 	)
 	(hierarchical_label "ESP32_GPIO17"
 		(shape bidirectional)
@@ -3432,28 +3753,6 @@
 		)
 		(uuid "6f78cfa6-abcc-4273-afce-61612e802ec9")
 	)
-	(hierarchical_label "ESP32_GPIO47"
-		(shape bidirectional)
-		(at 73.66 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6f943cc7-e1b9-4b4b-bebc-088b9194c0a5")
-	)
-	(hierarchical_label "ESP32_GPIO38"
-		(shape bidirectional)
-		(at 72.39 167.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "702ef5c1-5bbb-4062-9a90-556e9e57daee")
-	)
 	(hierarchical_label "ESP32_GPIO40"
 		(shape bidirectional)
 		(at 73.66 41.91 0)
@@ -3486,17 +3785,6 @@
 			(justify right)
 		)
 		(uuid "7225fe0a-a2a8-42b8-8f09-24e57ebc41aa")
-	)
-	(hierarchical_label "ESP32_GPIO15"
-		(shape bidirectional)
-		(at 35.56 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "72fdec3e-1399-4177-8f94-964923b1b27f")
 	)
 	(hierarchical_label "ESP32_A1_GPIO2"
 		(shape bidirectional)
@@ -3542,17 +3830,6 @@
 		)
 		(uuid "78f9dcf1-e7cf-49fc-8c8c-1a98263c0483")
 	)
-	(hierarchical_label "ESP32_GPIO34"
-		(shape bidirectional)
-		(at 72.39 208.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7957dc69-67a2-428a-8302-299b4bec2911")
-	)
 	(hierarchical_label "ESP32_GPIO11"
 		(shape bidirectional)
 		(at 35.56 132.08 180)
@@ -3563,17 +3840,6 @@
 			(justify right)
 		)
 		(uuid "7e434c7e-16c7-4861-b995-7361d1ef0af6")
-	)
-	(hierarchical_label "ESP32_GPIO15"
-		(shape bidirectional)
-		(at 35.56 41.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7f529460-6f48-4274-9eba-bffc074454d9")
 	)
 	(hierarchical_label "ESP32_GPIO18"
 		(shape bidirectional)
@@ -3685,28 +3951,6 @@
 		)
 		(uuid "999e5cf9-f23d-49f1-b8a9-fe38b09b1d06")
 	)
-	(hierarchical_label "ESP32_GPIO42"
-		(shape bidirectional)
-		(at 73.66 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9a159e16-5d9f-489b-9bf5-ace7fe876f5e")
-	)
-	(hierarchical_label "ESP32_GPIO48"
-		(shape bidirectional)
-		(at 73.66 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9bc47dac-b6f6-4278-95d8-e78da3b4f1aa")
-	)
 	(hierarchical_label "ESP32_A2_GPIO3"
 		(shape bidirectional)
 		(at 33.02 165.1 0)
@@ -3728,17 +3972,6 @@
 			(justify right)
 		)
 		(uuid "a18af1d2-e1c6-4400-9b87-11fa2e145096")
-	)
-	(hierarchical_label "ESP32_GPIO35"
-		(shape bidirectional)
-		(at 85.09 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a3866e18-159c-4f03-8290-c7a9db117ec2")
 	)
 	(hierarchical_label "ESP32_A4_GPIO5"
 		(shape bidirectional)
@@ -3773,28 +4006,6 @@
 		)
 		(uuid "aa55487b-2019-40de-aed8-4f5863f1ca44")
 	)
-	(hierarchical_label "ESP32_GPIO15"
-		(shape bidirectional)
-		(at 72.39 180.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aa7aebc5-e72b-4b3c-bb2e-9b0556d269cb")
-	)
-	(hierarchical_label "ESP32_GPIO48"
-		(shape bidirectional)
-		(at 73.66 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ab595ab1-73ec-4eed-9a53-cb7bedb56f1f")
-	)
 	(hierarchical_label "ESP32_GPIO17"
 		(shape bidirectional)
 		(at 35.56 114.3 180)
@@ -3816,17 +4027,6 @@
 			(justify left)
 		)
 		(uuid "ad095c13-7ec3-4d4e-a8b2-ef6197c68399")
-	)
-	(hierarchical_label "ESP32_GPIO45"
-		(shape bidirectional)
-		(at 73.66 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ad1ee787-ab50-4c49-b945-8a7b2675a796")
 	)
 	(hierarchical_label "ESP32_GPIO16"
 		(shape bidirectional)
@@ -3893,28 +4093,6 @@
 			(justify left)
 		)
 		(uuid "b93dab5e-6041-46b6-9438-418e555fbf34")
-	)
-	(hierarchical_label "ESP32_GPIO36"
-		(shape bidirectional)
-		(at 85.09 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bc449c6a-5215-439e-a39a-bf319f1e2c2d")
-	)
-	(hierarchical_label "ESP32_GPIO33"
-		(shape bidirectional)
-		(at 85.09 208.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bc65dc05-b022-4192-9106-0a14b72f2c39")
 	)
 	(hierarchical_label "ESP32_A1_GPIO2"
 		(shape bidirectional)
@@ -4026,17 +4204,6 @@
 		)
 		(uuid "c95646a6-d827-456c-a3e1-fe8591936b17")
 	)
-	(hierarchical_label "ESP32_GPIO42"
-		(shape bidirectional)
-		(at 73.66 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c9f9633b-1dd8-44e5-bdb3-bb3d1b79725a")
-	)
 	(hierarchical_label "ESP32_A3_GPIO4"
 		(shape bidirectional)
 		(at 35.56 31.75 180)
@@ -4103,17 +4270,6 @@
 		)
 		(uuid "d41a14eb-0914-4d94-8bbd-87b68d7a82ed")
 	)
-	(hierarchical_label "ESP32_GPIO37"
-		(shape bidirectional)
-		(at 85.09 203.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d4273761-53d4-43b5-9732-051cb30237c7")
-	)
 	(hierarchical_label "ESP32_A5_GPIO6"
 		(shape bidirectional)
 		(at 35.56 36.83 180)
@@ -4135,17 +4291,6 @@
 			(justify left)
 		)
 		(uuid "dbfd2194-fb50-49ed-a625-8ee9662e0d34")
-	)
-	(hierarchical_label "ESP32_GPIO36"
-		(shape bidirectional)
-		(at 72.39 205.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dd0c6979-1d7b-48bb-b0dc-974ba2b5cc05")
 	)
 	(hierarchical_label "ESP32_GPIO12"
 		(shape bidirectional)
