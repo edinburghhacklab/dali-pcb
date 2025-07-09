@@ -4311,7 +4311,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0eb4e285-7940-4485-ae9a-b5863d95ec9d")
-		(property "Reference" "J39"
+		(property "Reference" "J25"
 			(at 78.74 160.02 0)
 			(effects
 				(font
@@ -4405,7 +4405,7 @@
 		(instances
 			(project "dali-pcb"
 				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d/a53b6c42-facd-43a9-ae46-417ca2669247"
-					(reference "J39")
+					(reference "J25")
 					(unit 1)
 				)
 			)
@@ -4422,7 +4422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fb8d282-6884-47e9-8e9c-3e815f71f2fe")
-		(property "Reference" "J10"
+		(property "Reference" "J21"
 			(at 69.215 17.78 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4530,7 +4530,7 @@
 		(instances
 			(project "dali-pcb"
 				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d/a53b6c42-facd-43a9-ae46-417ca2669247"
-					(reference "J10")
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -4881,7 +4881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44b19b09-70b8-4114-996b-e228c9ad83af")
-		(property "Reference" "J9"
+		(property "Reference" "J20"
 			(at 40.005 17.78 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4989,7 +4989,7 @@
 		(instances
 			(project "dali-pcb"
 				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d/a53b6c42-facd-43a9-ae46-417ca2669247"
-					(reference "J9")
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -5139,7 +5139,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ff7831c-9a19-4df7-aafe-bb90b0c2ab87")
-		(property "Reference" "J14"
+		(property "Reference" "J27"
 			(at 78.74 198.12 0)
 			(effects
 				(font
@@ -5233,7 +5233,7 @@
 		(instances
 			(project "dali-pcb"
 				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d/a53b6c42-facd-43a9-ae46-417ca2669247"
-					(reference "J14")
+					(reference "J27")
 					(unit 1)
 				)
 			)
@@ -5986,7 +5986,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4d9079c-464e-49e4-bbcf-e38eb824ad39")
-		(property "Reference" "J13"
+		(property "Reference" "J26"
 			(at 26.67 198.12 0)
 			(effects
 				(font
@@ -6080,7 +6080,7 @@
 		(instances
 			(project "dali-pcb"
 				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d/a53b6c42-facd-43a9-ae46-417ca2669247"
-					(reference "J13")
+					(reference "J26")
 					(unit 1)
 				)
 			)
@@ -6433,7 +6433,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb515ab6-4512-43d8-814b-5b96179c097b")
-		(property "Reference" "J38"
+		(property "Reference" "J24"
 			(at 26.67 160.02 0)
 			(effects
 				(font
@@ -6527,7 +6527,7 @@
 		(instances
 			(project ""
 				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d/a53b6c42-facd-43a9-ae46-417ca2669247"
-					(reference "J38")
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -6811,7 +6811,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8770f13-179d-4787-8457-e35af51a58cb")
-		(property "Reference" "J12"
+		(property "Reference" "J23"
 			(at 69.342 83.566 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6925,7 +6925,7 @@
 		(instances
 			(project "dali-pcb"
 				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d/a53b6c42-facd-43a9-ae46-417ca2669247"
-					(reference "J12")
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -6940,7 +6940,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eab7f847-a8e6-4591-a55c-21f786a535e9")
-		(property "Reference" "J11"
+		(property "Reference" "J22"
 			(at 39.878 83.82 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7054,7 +7054,7 @@
 		(instances
 			(project "dali-pcb"
 				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d/a53b6c42-facd-43a9-ae46-417ca2669247"
-					(reference "J11")
+					(reference "J22")
 					(unit 1)
 				)
 			)

@@ -2492,7 +2492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ffe2fff-66d6-4605-ae1b-06811344453e")
-		(property "Reference" "J16"
+		(property "Reference" "J4"
 			(at 93.98 10.1599 90)
 			(effects
 				(font
@@ -2546,7 +2546,7 @@
 		(instances
 			(project "dali-pcb"
 				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d/da3e6e2b-6a82-47d9-9b10-47b7831d6589"
-					(reference "J16")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2997,7 +2997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb203628-d631-4836-8cda-87b9a50ea9ca")
-		(property "Reference" "J15"
+		(property "Reference" "J3"
 			(at 59.69 10.1599 90)
 			(effects
 				(font
@@ -3051,7 +3051,7 @@
 		(instances
 			(project "dali-pcb"
 				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d/da3e6e2b-6a82-47d9-9b10-47b7831d6589"
-					(reference "J15")
+					(reference "J3")
 					(unit 1)
 				)
 			)
