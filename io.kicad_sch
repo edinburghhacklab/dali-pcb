@@ -168,6 +168,251 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x05_Pin"
 			(pin_names
 				(offset 1.016)
@@ -3057,28 +3302,20 @@
 		)
 	)
 	(no_connect
-		(at 187.96 73.66)
-		(uuid "166d8326-01c7-4b9d-a1bc-d4b2cfafb914")
-	)
-	(no_connect
-		(at 187.96 39.37)
+		(at 162.56 40.64)
 		(uuid "3eb33295-6157-4cad-a7af-f447eceeb0ac")
 	)
 	(no_connect
-		(at 187.96 36.83)
+		(at 162.56 38.1)
 		(uuid "53e4decb-af8b-4327-bd12-8f73e615ed4d")
 	)
 	(no_connect
-		(at 187.96 63.5)
-		(uuid "82210242-bf6b-47f1-b510-3a80aeabcbf3")
-	)
-	(no_connect
-		(at 187.96 46.99)
+		(at 162.56 48.26)
 		(uuid "94e4fead-7e2e-46b7-a62c-80c6286e400b")
 	)
-	(hierarchical_label "FTDI_DALI_TXD"
-		(shape bidirectional)
-		(at 187.96 68.58 0)
+	(hierarchical_label "UART_RX"
+		(shape input)
+		(at 187.96 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3231,8 +3468,8 @@
 		(uuid "45bcde81-3535-41da-a7cc-ad5fa550621b")
 	)
 	(hierarchical_label "FTDI_MCU_RXD"
-		(shape bidirectional)
-		(at 187.96 44.45 0)
+		(shape input)
+		(at 162.56 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3329,9 +3566,9 @@
 		)
 		(uuid "6d64df1d-6236-4ba7-84b3-cac997188b5f")
 	)
-	(hierarchical_label "FTDI_DALI_RXD"
-		(shape bidirectional)
-		(at 187.96 71.12 0)
+	(hierarchical_label "UART_TX"
+		(shape output)
+		(at 187.96 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3385,8 +3622,8 @@
 		(uuid "7bc1a82d-c47d-499a-a2e3-5e4b2882ec36")
 	)
 	(hierarchical_label "FTDI_MCU_TXD"
-		(shape bidirectional)
-		(at 187.96 41.91 0)
+		(shape output)
+		(at 162.56 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3894,7 +4131,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 60.96 90)
+		(at 187.96 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3903,7 +4140,7 @@
 		(fields_autoplaced yes)
 		(uuid "077e2054-133a-45ce-ad10-48f88e860bea")
 		(property "Reference" "#PWR083"
-			(at 194.31 60.96 0)
+			(at 194.31 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,7 +4149,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 60.9599 90)
+			(at 191.77 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3921,7 +4158,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 60.96 0)
+			(at 187.96 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,7 +4167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 60.96 0)
+			(at 187.96 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3939,7 +4176,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 60.96 0)
+			(at 187.96 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +4332,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 34.29 90)
+		(at 162.56 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4104,7 +4341,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fa8d344-7c63-432d-b17f-a9ac62c287e6")
 		(property "Reference" "#PWR037"
-			(at 194.31 34.29 0)
+			(at 168.91 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,7 +4350,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 34.2899 90)
+			(at 166.37 35.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +4359,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 34.29 0)
+			(at 162.56 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,7 +4368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 34.29 0)
+			(at 162.56 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4140,7 +4377,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 34.29 0)
+			(at 162.56 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4701,6 +4938,73 @@
 			(project "dali-pcb"
 				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d/6cac1b53-24ad-4dc9-955d-941983abac95"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 187.96 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38201339-3d0d-42ed-be9b-c1e98c42b01c")
+		(property "Reference" "#PWR084"
+			(at 184.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 191.77 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 187.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc02d6cd-9e9f-4515-93c1-f1a1e1977135")
+		)
+		(instances
+			(project "dali-pcb"
+				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d/6cac1b53-24ad-4dc9-955d-941983abac95"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -5714,73 +6018,6 @@
 			(project "dali-pcb"
 				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d/6cac1b53-24ad-4dc9-955d-941983abac95"
 					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 187.96 66.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d3ace49-cc2f-4a86-a9bf-4af52728d28e")
-		(property "Reference" "#PWR084"
-			(at 184.15 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 191.77 66.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 187.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e74e330-4303-429b-8855-a7e68d71e4ee")
-		)
-		(instances
-			(project "dali-pcb"
-				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d/6cac1b53-24ad-4dc9-955d-941983abac95"
-					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -6916,7 +7153,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
-		(at 182.88 39.37 0)
+		(at 157.48 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6925,7 +7162,7 @@
 		(fields_autoplaced yes)
 		(uuid "9dc29965-1849-4ec1-9fa9-61af83c79c91")
 		(property "Reference" "J17"
-			(at 183.515 29.21 0)
+			(at 158.115 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6933,7 +7170,7 @@
 			)
 		)
 		(property "Value" "FTDI-MCU"
-			(at 183.515 31.75 0)
+			(at 158.115 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6941,7 +7178,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-			(at 182.88 39.37 0)
+			(at 157.48 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6950,7 +7187,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 39.37 0)
+			(at 157.48 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6959,7 +7196,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 182.88 39.37 0)
+			(at 157.48 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8353,8 +8590,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Pin")
-		(at 182.88 66.04 0)
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 182.88 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8362,23 +8599,23 @@
 		(dnp no)
 		(uuid "e38d8641-f733-488e-a1e3-c9609c4dee6b")
 		(property "Reference" "J37"
-			(at 183.515 55.88 0)
+			(at 182.88 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "FTDI-DALI"
-			(at 183.515 58.42 0)
+		(property "Value" "UART-DALI"
+			(at 182.88 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-			(at 182.88 66.04 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 182.88 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8387,7 +8624,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 66.04 0)
+			(at 182.88 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8395,8 +8632,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 182.88 66.04 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 182.88 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8409,12 +8646,6 @@
 		)
 		(pin "4"
 			(uuid "d7286522-da07-4232-92c2-8bf352b32b3a")
-		)
-		(pin "5"
-			(uuid "1b3c2eea-e0f7-44a7-857d-f15b6b097cb5")
-		)
-		(pin "6"
-			(uuid "8732e01a-76ea-43d3-b926-4ed473a959a5")
 		)
 		(pin "1"
 			(uuid "f7ac098d-31bb-4efd-af6f-c8c10ab51772")

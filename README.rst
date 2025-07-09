@@ -4,8 +4,7 @@ DALI PCB
 Overview
 --------
 
-PCB to power and interface with DALI using an ESP32-S2, ESP32-S3 or FTDI
-TTL-232R-3V3.
+PCB to power and interface with DALI using an ESP32-S2 or ESP32-S3.
 
 Usage
 -----
@@ -60,9 +59,9 @@ Analogue and digital I/O pin headers are provided for integrations with external
 switches and rotary encoders. There are multiple overlapping pin headers for
 flexibility in how these are used.
 
-Pin headers for FTDI UART connections are provided for the ESP32-S3
-microcontroller and the DALI bus (which can only be used when the
-microcontroller is disconnected).
+A pin header for FTDI UART connections is provided but this only attached to the
+ESP32-S3 microcontrollers. The DALI bus also has a 3.3V UART pin header which
+can only be used when the microcontroller is disconnected.
 
 .. image:: render/IO-sch.svg
    :alt: I/O schematic

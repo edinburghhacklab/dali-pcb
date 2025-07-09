@@ -3353,7 +3353,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f263b128-4c75-4fe8-bb55-5e67c8320953")
 		(property "Reference" "R5"
 			(at 185.42 20.32 90)
@@ -3396,6 +3395,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Note" "(330Ω for 5V)"
+			(at 185.42 29.972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"

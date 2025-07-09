@@ -1672,29 +1672,9 @@
 				(justify left)
 			)
 		)
-		(pin "FTDI_DALI_RXD" bidirectional
-			(at 184.15 73.66 0)
-			(uuid "e368db35-8471-469b-8073-1f2b1973483c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "FTDI_DALI_TXD" bidirectional
-			(at 184.15 76.2 0)
-			(uuid "c37451dd-a5d0-4a0b-99e9-54de0ef8b74c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "FTDI_MCU_RXD" bidirectional
+		(pin "FTDI_MCU_RXD" input
 			(at 166.37 85.09 180)
-			(uuid "8279c540-f203-4483-9803-b23cde4ba812")
+			(uuid "3169234e-c1b5-4aa4-b543-e683840a6797")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1702,14 +1682,34 @@
 				(justify left)
 			)
 		)
-		(pin "FTDI_MCU_TXD" bidirectional
+		(pin "FTDI_MCU_TXD" output
 			(at 166.37 82.55 180)
-			(uuid "a285f60c-3278-41cf-9369-743aeee2d28f")
+			(uuid "f5745c05-00e7-4643-8e5c-85fc4a38714d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "UART_RX" input
+			(at 184.15 73.66 0)
+			(uuid "d31653e4-5bba-4b72-93fb-4214b9177a78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_TX" output
+			(at 184.15 76.2 0)
+			(uuid "e050b82e-1011-4fed-a530-343b30dde6c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
