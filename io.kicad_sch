@@ -4482,7 +4482,7 @@
 				)
 			)
 		)
-		(property "Value" "A2-4"
+		(property "Value" "A2-6"
 			(at 158.115 8.89 0)
 			(effects
 				(font
@@ -5095,7 +5095,7 @@
 				)
 			)
 		)
-		(property "Value" "D2-1"
+		(property "Value" "D2-11"
 			(at 81.915 58.42 0)
 			(effects
 				(font
@@ -5172,7 +5172,7 @@
 				)
 			)
 		)
-		(property "Value" "D2-2"
+		(property "Value" "D2-13"
 			(at 107.315 58.42 0)
 			(effects
 				(font
@@ -5249,7 +5249,7 @@
 				)
 			)
 		)
-		(property "Value" "A2-1"
+		(property "Value" "A2-0"
 			(at 81.915 8.89 0)
 			(effects
 				(font
@@ -5604,7 +5604,7 @@
 				)
 			)
 		)
-		(property "Value" "A10"
+		(property "Value" "A10-0"
 			(at 5.715 8.89 0)
 			(effects
 				(font
@@ -6041,7 +6041,7 @@
 				)
 			)
 		)
-		(property "Value" "A2-5"
+		(property "Value" "A2-8"
 			(at 183.515 8.89 0)
 			(effects
 				(font
@@ -6454,7 +6454,7 @@
 				)
 			)
 		)
-		(property "Value" "D4-2"
+		(property "Value" "D4-16"
 			(at 56.515 58.42 0)
 			(effects
 				(font
@@ -6805,7 +6805,7 @@
 				)
 			)
 		)
-		(property "Value" "A5-2"
+		(property "Value" "A5-5"
 			(at 56.515 8.89 0)
 			(effects
 				(font
@@ -6958,7 +6958,7 @@
 				)
 			)
 		)
-		(property "Value" "D2-3"
+		(property "Value" "D2-16"
 			(at 132.715 58.42 0)
 			(effects
 				(font
@@ -7450,7 +7450,7 @@
 				)
 			)
 		)
-		(property "Value" "D8"
+		(property "Value" "D8-11"
 			(at 5.715 58.42 0)
 			(effects
 				(font
@@ -7612,7 +7612,7 @@
 				)
 			)
 		)
-		(property "Value" "A5-1"
+		(property "Value" "A5-0"
 			(at 31.115 8.89 0)
 			(effects
 				(font
@@ -7899,7 +7899,7 @@
 				)
 			)
 		)
-		(property "Value" "D4-1"
+		(property "Value" "D4-11"
 			(at 32.385 58.42 0)
 			(effects
 				(font
@@ -8116,7 +8116,7 @@
 				)
 			)
 		)
-		(property "Value" "D2-4"
+		(property "Value" "D2-18"
 			(at 158.115 58.42 0)
 			(effects
 				(font
@@ -8327,7 +8327,7 @@
 				)
 			)
 		)
-		(property "Value" "A2-3"
+		(property "Value" "A2-4"
 			(at 132.715 8.89 0)
 			(effects
 				(font
