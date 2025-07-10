@@ -17,10 +17,14 @@ Schematics
 ----------
 
 Power for the DALI bus is optional and can be connected using the solder jumper
-bridges.
+bridges. If the power is supplied by this PCB then the polarity of the bus is
+fixed so the bridge rectifier can be omitted.
 
 .. image:: render/Root-sch.svg
    :alt: Root schematic
+
+* Self-powered: populate JP1-2, and populate either JP3-4 or D5
+* Bus-powered: populate D5, do not populate JP1-4
 
 DALI
 ~~~~
