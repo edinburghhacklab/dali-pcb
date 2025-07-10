@@ -2507,7 +2507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt2222at1-d.pdf"
 			(at 86.36 54.61 0)
 			(effects
 				(font
@@ -3199,7 +3199,7 @@
 				)
 			)
 		)
-		(property "Value" "BAV99"
+		(property "Value" "BAV99-7-F"
 			(at 106.68 60.96 0)
 			(effects
 				(font
@@ -3207,7 +3207,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 106.68 77.47 0)
 			(effects
 				(font
@@ -3216,7 +3216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/BAV99.pdf"
 			(at 106.68 64.77 0)
 			(effects
 				(font
@@ -3549,7 +3549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 106.68 53.848 90)
 			(effects
 				(font
@@ -3913,7 +3913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 71.12 62.992 90)
 			(effects
 				(font
