@@ -42,9 +42,9 @@
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
-			(usegerberattributes yes)
-			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(usegerberattributes no)
+			(usegerberadvancedattributes no)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -72,9 +72,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "plots/")
 		)
 	)
 	(net 0 "")
@@ -18676,7 +18676,7 @@
 			(justify left top)
 		)
 	)
-	(gr_text "Self-powered: JP*\nBus-powered: D5"
+	(gr_text "Internal power: JP*\nExternal power: D5"
 		(at 57.15 47.4091 0)
 		(layer "F.SilkS" knockout)
 		(uuid "be1b0a72-a3ce-46c2-938b-8b7b7532f98b")
@@ -18689,7 +18689,7 @@
 		)
 	)
 	(gr_text "DALI"
-		(at 78.74 48.895 0)
+		(at 113.03 48.895 90)
 		(layer "F.SilkS")
 		(uuid "be583555-f296-42fe-9320-a85bd512ebf3")
 		(effects
