@@ -23,9 +23,6 @@ fixed so the bridge rectifier can be omitted.
 .. image:: render/Root-sch.svg
    :alt: Root schematic
 
-* Self-powered: populate JP1-2, and populate either JP3-4 or D5
-* Bus-powered: populate D5, do not populate JP1-4
-
 DALI
 ~~~~
 
@@ -75,6 +72,9 @@ can only be used when the microcontroller is disconnected.
 
 PCB
 ---
+
+* Self-powered: populate JP1-2, and populate either JP3-4 or D5
+* Bus-powered: populate D5, do not populate JP1-4
 
 .. image:: render/DALI-pcb.svg
    :alt: DALI PCB
