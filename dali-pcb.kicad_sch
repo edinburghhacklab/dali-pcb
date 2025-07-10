@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "aa7f7e07-1f39-4222-a272-c9975d033b6d")
-	(paper "User" 195 105)
+	(paper "User" 195 85)
 	(lib_symbols
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers
