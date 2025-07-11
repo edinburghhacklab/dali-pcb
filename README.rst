@@ -4,9 +4,9 @@ DALI PCB
 Overview
 --------
 
-PCB to power and interface with DALI using an ESP32-S2 or ESP32-S3.
+PCB to power and interface with DALI using an ESP32-S3.
 
-Dimensions: 180.5mm W × 113mm H × ~18mm D
+Dimensions: 100mm W × 75mm H
 
 Usage
 -----
@@ -26,7 +26,7 @@ fixed so the bridge rectifier can be omitted.
 DALI
 ~~~~
 
-There are 3 DALI bus connections.
+There are 2 DALI bus connections.
 
 .. image:: render/DALI-sch.svg
    :alt: DALI schematic
@@ -36,7 +36,7 @@ Power
 
 Power for the DALI bus is supplied by an external 12-22V DC power supply. Power
 for the microcontroller is supplied by USB to the development board or an
-external 5V DC power supply, with extra connections for powering other devices.
+external 5V DC power supply.
 
 .. image:: render/Power-sch.svg
    :alt: Power schematic
@@ -44,14 +44,8 @@ external 5V DC power supply, with extra connections for powering other devices.
 Microcontroller
 ~~~~~~~~~~~~~~~
 
-Supported development boards:
-
-* ESP32-DevKitC-1
-* LOLIN S3
-* LOLIN S3 mini
-* LOLIN S2 mini
-
-Only one of these can be connected at a time.
+Connect a `LOLIN S3  <https://www.wemos.cc/en/latest/s3/s3.html>`_ development
+board to the pin sockets.
 
 .. image:: render/Microcontroller-sch.svg
    :alt: Microcontroller schematic
@@ -60,12 +54,10 @@ I/O
 ~~~
 
 Analogue and digital I/O pin headers are provided for integrations with external
-switches and rotary encoders. There are multiple overlapping pin headers for
-flexibility in how these are used.
+switches and rotary encoders.
 
-A pin header for FTDI UART connections is provided but this only attached to the
-ESP32-S3 microcontrollers. The DALI bus also has a 3.3V UART pin header which
-can only be used when the microcontroller is disconnected.
+The DALI bus also has a 3.3V UART pin header which can only be used when the
+microcontroller is disconnected.
 
 .. image:: render/IO-sch.svg
    :alt: I/O schematic
@@ -85,7 +77,7 @@ Components
 +---------------------+----------+--------------------------------------------------------+
 | Refs                | Quantity | Name                                                   |
 +=====================+==========+========================================================+
-|                     |     1    | ESP32-S2 or ESP32-S3 Development Board                 |
+|                     |     1    | LOLIN S3 Development Board                             |
 +---------------------+----------+--------------------------------------------------------+
 | D3                  |     1    | Diodes BAV99-7-F Dual Switching Diode, SOT-23-3        |
 +---------------------+----------+--------------------------------------------------------+
@@ -93,34 +85,13 @@ Components
 +---------------------+----------+--------------------------------------------------------+
 | D5                  |     1    | Infineon BGX50AE6327 Diode Bridge, SOT-143             |
 +---------------------+----------+--------------------------------------------------------+
-| J1, J2, J3, J4,     |     8    | 1x02 Terminal Block, Through Hole (5.08mm)             |
-| J10, J11, J12, J13  |          |                                                        |
+| J1, J2, J3, J4      |     4    | 1x02 Terminal Block, Through Hole (5.08mm)             |
 +---------------------+----------+--------------------------------------------------------+
-| J14, J15            |     2    | 1x10 Pin Header, Through Hole (2.54mm)                 |
+| J5, J6              |     2    | 1x20 Pin Socket, Through Hole (2.54mm)                 |
 +---------------------+----------+--------------------------------------------------------+
-| J20, J21            |     2    | 1x20 Pin Socket, Through Hole (2.54mm)                 |
+| J7                  |     1    | 1x04 Pin Header, Through Hole (2.54mm)                 |
 +---------------------+----------+--------------------------------------------------------+
-| J22, J23            |     2    | 1x22 Pin Socket, Through Hole (2.54mm)                 |
-+---------------------+----------+--------------------------------------------------------+
-| J24, J25, J26, J27  |     4    | 2x08 Pin Socket, Through Hole (2.54mm)                 |
-+---------------------+----------+--------------------------------------------------------+
-| J30                 |     1    | 1x06 Pin Header, Through Hole (2.54mm)                 |
-+---------------------+----------+--------------------------------------------------------+
-| J31                 |     1    | 1x04 Pin Header, Through Hole (2.54mm)                 |
-+---------------------+----------+--------------------------------------------------------+
-| J40                 |     1    | 1x13 Pin Header, Through Hole (2.54mm)                 |
-+---------------------+----------+--------------------------------------------------------+
-| J41, J42            |     2    | 1x08 Pin Header, Through Hole (2.54mm)                 |
-+---------------------+----------+--------------------------------------------------------+
-| J43, J44, J45, J46, |     9    | 1x05 Pin Header, Through Hole (2.54mm)                 |
-| J47, J53, J54, J55, |          |                                                        |
-| J56                 |          |                                                        |
-+---------------------+----------+--------------------------------------------------------+
-| J50                 |     1    | 1x11 Pin Header, Through Hole (2.54mm)                 |
-+---------------------+----------+--------------------------------------------------------+
-| J51, J52            |     2    | 1x07 Pin Header, Through Hole (2.54mm)                 |
-+---------------------+----------+--------------------------------------------------------+
-| J60, J61, J62, J63  |     4    | 1x02 Pin Header, Through Hole (2.54mm)                 |
+| J8, J9              |     2    | 2x13 Pin Header, Through Hole (2.54mm)                 |
 +---------------------+----------+--------------------------------------------------------+
 | Q1                  |     1    | ON Semiconductor PZT2222AT1G NPN Transistor, SOT-223   |
 +---------------------+----------+--------------------------------------------------------+
@@ -141,7 +112,7 @@ Components
 | U1, U2              |     2    | Vishay Semiconductors TCLT1000 Optocoupler, SOP-4L     |
 +---------------------+----------+--------------------------------------------------------+
 
-Total pin header count: 137
+Total pin header count: 30
 
 References
 ----------
