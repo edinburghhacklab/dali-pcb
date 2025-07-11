@@ -3128,7 +3128,7 @@
 				)
 			)
 		)
-		(property "Value" "DIRECT"
+		(property "Value" "DALI-3V3"
 			(at 15.24 7.62 0)
 			(effects
 				(font

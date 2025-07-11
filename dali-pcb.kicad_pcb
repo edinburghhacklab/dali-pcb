@@ -5918,7 +5918,7 @@
 				)
 			)
 		)
-		(property "Value" "DIRECT"
+		(property "Value" "DALI-3V3"
 			(at 2.54 3.81 90)
 			(layer "F.SilkS")
 			(uuid "c08414b4-77ff-449e-bec2-5461a2c50815")
