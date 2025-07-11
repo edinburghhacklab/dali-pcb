@@ -112,7 +112,7 @@ Components
 | U1, U2              |     2    | Vishay Semiconductors TCLT1000 Optocoupler, SOP-4L     |
 +---------------------+----------+--------------------------------------------------------+
 
-Total pin header count: 30
+Total pin header count: 56
 
 References
 ----------
