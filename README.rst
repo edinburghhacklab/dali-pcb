@@ -56,8 +56,9 @@ I/O
 Analogue and digital I/O pin headers are provided for integrations with external
 switches and rotary encoders.
 
-The DALI bus also has a 3.3V UART pin header which can only be used when the
-microcontroller is disconnected.
+The DALI bus also has a 3.3V direct pin header which can only be used when the
+microcontroller is disconnected. This can't be used with a standard UART because
+the DALI communication uses Manchester (bi-phase) encoding.
 
 .. image:: render/IO-sch.svg
    :alt: I/O schematic

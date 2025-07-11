@@ -1780,7 +1780,7 @@
 		)
 		(uuid "fe6ceecf-a356-4391-825b-650e0d9b3157")
 	)
-	(hierarchical_label "UART_RX"
+	(hierarchical_label "DALI_RX"
 		(shape input)
 		(at 20.32 12.7 0)
 		(effects
@@ -1879,7 +1879,7 @@
 		)
 		(uuid "6d64df1d-6236-4ba7-84b3-cac997188b5f")
 	)
-	(hierarchical_label "UART_TX"
+	(hierarchical_label "DALI_TX"
 		(shape output)
 		(at 20.32 15.24 0)
 		(effects
@@ -3128,7 +3128,7 @@
 				)
 			)
 		)
-		(property "Value" "UART"
+		(property "Value" "DIRECT"
 			(at 15.24 7.62 0)
 			(effects
 				(font
