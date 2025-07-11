@@ -2574,17 +2574,6 @@
 		)
 		(uuid "582473cf-6eed-422e-bf56-f69fe88b18ed")
 	)
-	(hierarchical_label "DA-"
-		(shape passive)
-		(at 106.68 16.51 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6588c2a1-f6d6-496a-9a56-c0d07cfa1313")
-	)
 	(hierarchical_label "DALI_TX"
 		(shape input)
 		(at 199.39 26.67 0)
@@ -2628,17 +2617,6 @@
 			(justify right)
 		)
 		(uuid "a198a0b0-635a-4428-a123-ac750f4da6ee")
-	)
-	(hierarchical_label "DA+"
-		(shape passive)
-		(at 109.22 16.51 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a9f28039-74d2-4b8d-8345-abebe9aa4c93")
 	)
 	(hierarchical_label "DA+"
 		(shape passive)
@@ -2999,76 +2977,6 @@
 			(project "dali-pcb"
 				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d/da3e6e2b-6a82-47d9-9b10-47b7831d6589"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 106.68 11.43 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ffe2fff-66d6-4605-ae1b-06811344453e")
-		(property "Reference" "J4"
-			(at 111.76 10.1599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "DALI BUS"
-			(at 111.76 12.6999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
-			(at 106.68 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 106.68 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e30847b3-5408-48fa-a8cd-50d281430d66")
-		)
-		(pin "2"
-			(uuid "d1f65c59-6f0e-45e9-8f32-bdd366038881")
-		)
-		(instances
-			(project "dali-pcb"
-				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d/da3e6e2b-6a82-47d9-9b10-47b7831d6589"
-					(reference "J4")
 					(unit 1)
 				)
 			)
