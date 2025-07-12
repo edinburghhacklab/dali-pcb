@@ -9140,7 +9140,7 @@
 			(justify left top)
 		)
 	)
-	(gr_text "LOLIN-S3"
+	(gr_text "LOLIN S3"
 		(at 23.749 68.58 270)
 		(layer "F.SilkS")
 		(uuid "6853ce07-4f10-4f89-a6aa-37a5a16e6071")
