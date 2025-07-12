@@ -1564,7 +1564,7 @@
 				(justify left)
 			)
 		)
-		(pin "UART_RX" input
+		(pin "DALI_RX" input
 			(at 166.37 68.58 180)
 			(uuid "d31653e4-5bba-4b72-93fb-4214b9177a78")
 			(effects
@@ -1574,7 +1574,7 @@
 				(justify left)
 			)
 		)
-		(pin "UART_TX" output
+		(pin "DALI_TX" output
 			(at 166.37 71.12 180)
 			(uuid "e050b82e-1011-4fed-a530-343b30dde6c0")
 			(effects
