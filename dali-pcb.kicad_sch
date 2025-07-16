@@ -413,12 +413,6 @@
 		(uuid "245c78d0-576b-41d5-b010-fedfa404f63e")
 	)
 	(junction
-		(at 33.02 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a4540f9-7c26-4fe3-aed5-01074becf197")
-	)
-	(junction
 		(at 7.62 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -608,7 +602,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 21.59) (xy 33.02 21.59)
+			(xy 27.94 21.59) (xy 35.56 21.59)
 		)
 		(stroke
 			(width 0)
@@ -665,16 +659,6 @@
 			(type default)
 		)
 		(uuid "7e9957da-1dcb-4885-9c5c-0d513c645e99")
-	)
-	(wire
-		(pts
-			(xy 33.02 21.59) (xy 33.02 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fc58250-54a5-4a40-9e42-8fb79d1e8f15")
 	)
 	(wire
 		(pts
@@ -795,16 +779,6 @@
 			(type default)
 		)
 		(uuid "fb5f34a4-a6fd-4e39-825a-e928480e37b3")
-	)
-	(wire
-		(pts
-			(xy 33.02 21.59) (xy 35.56 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbb4e0ea-b625-4b33-9f88-103a286b59d2")
 	)
 	(wire
 		(pts
@@ -1011,72 +985,6 @@
 			(project ""
 				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 33.02 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4cec305d-1892-402c-9397-6c7b4fb5cfa5")
-		(property "Reference" "#PWR08"
-			(at 33.02 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 33.02 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b437c75f-0ebf-4df4-8445-4f7b12a6765d")
-		)
-		(instances
-			(project ""
-				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)

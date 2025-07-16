@@ -1093,6 +1093,12 @@
 		(color 0 0 0 0)
 		(uuid "cbc85c0d-9bde-4d35-bfda-b94a9fd78116")
 	)
+	(junction
+		(at 20.32 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3158fcc-d904-472f-8f88-0827b788c0e4")
+	)
 	(no_connect
 		(at 106.68 69.85)
 		(uuid "054329f9-8705-421b-82af-c5f008c9803d")
@@ -1139,7 +1145,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 22.86) (xy 6.35 22.86)
+			(xy 35.56 22.86) (xy 20.32 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1216,6 +1222,16 @@
 			(type default)
 		)
 		(uuid "72073a5c-ac3c-43a8-90d9-18652f0530cc")
+	)
+	(wire
+		(pts
+			(xy 20.32 22.86) (xy 6.35 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a337f075-75ef-434e-adcb-5613f31bb85a")
 	)
 	(wire
 		(pts
@@ -1475,6 +1491,72 @@
 			(project "dali-pcb"
 				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d/c3d197ff-c98f-4944-adaf-f724576fcc8c"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 20.32 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70879542-7ba0-4ee8-a0a1-7d738733f914")
+		(property "Reference" "#FLG07"
+			(at 20.32 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 20.32 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 20.32 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "533e1c12-b320-4f80-8360-d41601055eb9")
+		)
+		(instances
+			(project "dali-pcb"
+				(path "/aa7f7e07-1f39-4222-a272-c9975d033b6d/c3d197ff-c98f-4944-adaf-f724576fcc8c"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
