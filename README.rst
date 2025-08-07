@@ -13,6 +13,8 @@ Usage
 
 This is a KiCad project.
 
+* `Software <https://github.com/edinburghhacklab/mqtt-dali-controller>`_
+
 Schematics
 ----------
 
